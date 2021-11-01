@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage("Pull Latest Image"){
 			steps{
-				sh "docker pull suketdocker/deals"
+				sh "docker pull suketdocker/xchange"
 			}
 		}
 		stage("Start Grid"){
